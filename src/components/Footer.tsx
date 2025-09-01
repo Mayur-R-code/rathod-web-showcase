@@ -5,7 +5,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear()
 
   const handleEmailClick = () => {
-    window.location.href = "mailto:mayur.rathod17@gmail.com"
+    window.location.href = "mailto:mayurrathod1176@gmail.com"
   }
 
   const handleLinkedInClick = () => {
@@ -55,9 +55,7 @@ export function Footer() {
           {/* Bottom Footer */}
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
             <div className="flex items-center gap-1">
-              <span>© {currentYear} Mayur Rathod. Made with</span>
-              <Heart size={14} className="text-red-500 fill-current" />
-              <span>and React</span>
+              <span>© {currentYear} Mayur Rathod.</span>
             </div>
             
             <div className="flex items-center gap-4">

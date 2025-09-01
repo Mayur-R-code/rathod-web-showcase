@@ -4,22 +4,6 @@ import { Calendar, MapPin, Building2 } from "lucide-react"
 
 const experiences = [
   {
-    title: "React Developer",
-    company: "The Dezine Pvt Ltd",
-    duration: "05/2025 - 08/2025",
-    location: "India",
-    type: "Remote",
-    description: "Specialized in advanced authentication and security implementations.",
-    achievements: [
-      "Integrated Supabase authentication system",
-      "Implemented Login with Passkey feature for enhanced security",
-      "Developed AppLock functionality for mobile applications",
-      "Built Two-Factor Authentication (2FA) system",
-      "Enhanced application security and user experience"
-    ],
-    technologies: ["React.js", "Supabase", "WebAuthn", "TypeScript", "Authentication"]
-  },
-  {
     title: "Frontend Developer",
     company: "Drop Techno Lab Private Limited",
     duration: "09/2022 - 03/2025",
@@ -34,6 +18,22 @@ const experiences = [
       "Conducted code reviews and provided mentorship to frontend developers, fostering a collaborative and growth-oriented team environment"
     ],
     technologies: ["React.js", "Next.js", "Redux", "REST APIs", "SEO", "JavaScript", "TypeScript"]
+  },
+  {
+    title: "React Developer",
+    company: "The Dezine Pvt Ltd",
+    duration: "05/2025 - 08/2025",
+    location: "India",
+    type: "Remote",
+    description: "Specialized in advanced authentication and security implementations.",
+    achievements: [
+      "Integrated Supabase authentication system",
+      "Implemented Login with Passkey feature for enhanced security",
+      "Developed AppLock functionality for mobile applications",
+      "Built Two-Factor Authentication (2FA) system",
+      "Enhanced application security and user experience"
+    ],
+    technologies: ["React.js", "Supabase", "WebAuthn", "TypeScript", "Authentication"]
   }
 ]
 

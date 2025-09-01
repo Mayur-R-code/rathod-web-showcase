@@ -11,7 +11,7 @@ export function Hero() {
   }, [])
 
   const handleEmailClick = () => {
-    window.location.href = "mailto:mayur.rathod17@gmail.com"
+    window.location.href = "mailto:mayurrathod1176@gmail.com"
   }
 
   const handleLinkedInClick = () => {
@@ -31,17 +31,10 @@ export function Hero() {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
-          {/* Status Badge */}
-          <div className={`mb-6 ${isVisible ? "fade-in" : "opacity-0"}`}>
-            <Badge variant="outline" className="skill-badge text-sm px-4 py-2">
-              <div className="w-2 h-2 bg-accent rounded-full mr-2 pulse-glow"></div>
-              Available for new opportunities
-            </Badge>
-          </div>
 
           {/* Main Heading */}
           <div className={`mb-6 ${isVisible ? "slide-up" : "opacity-0"}`} style={{ animationDelay: "0.2s" }}>
-            <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent mb-4">
+            <h1 className="text-4xl mt-[97px] md:mt-0 md:text-7xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent mb-4">
               Mayur Rathod
             </h1>
             <h2 className="text-2xl md:text-3xl font-semibold text-foreground mb-4">
@@ -60,7 +53,7 @@ export function Hero() {
           {/* Description */}
           <div className={`mb-12 ${isVisible ? "fade-in" : "opacity-0"}`} style={{ animationDelay: "0.6s" }}>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Experienced Frontend Developer with 2+ years specializing in React, Next.js, and modern web technologies. 
+              Experienced Frontend Developer with 2 years specializing in React, Next.js, and modern web technologies. 
               Passionate about creating engaging user interfaces and delivering exceptional digital experiences.
             </p>
           </div>

@@ -7,8 +7,8 @@ const contactMethods = [
   {
     icon: Mail,
     title: "Email",
-    value: "mayur.rathod17@gmail.com",
-    action: () => window.location.href = "mailto:mayur.rathod17@gmail.com",
+    value: "mayurrathod1176@gmail.com",
+    action: () => window.location.href = "mailto:mayurrathod1176@gmail.com",
     color: "from-blue-500 to-blue-600"
   },
   {
@@ -36,7 +36,7 @@ const contactMethods = [
 
 export function Contact() {
   const handleEmailClick = () => {
-    window.location.href = "mailto:mayur.rathod17@gmail.com?subject=Hello Mayur - Let's Connect&body=Hi Mayur,%0D%0A%0D%0AI would like to discuss potential opportunities with you.%0D%0A%0D%0ABest regards"
+    window.location.href = "mailto:mayurrathod1176@gmail.com?subject=Hello Mayur - Let's Connect&body=Hi Mayur,%0D%0A%0D%0AI would like to discuss potential opportunities with you.%0D%0A%0D%0ABest regards"
   }
 
   return (
