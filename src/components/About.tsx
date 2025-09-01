@@ -5,7 +5,7 @@ import { Code2, Users, Lightbulb, Target } from "lucide-react"
 const highlights = [
   {
     icon: Code2,
-    title: "2+ Years Experience",
+    title: "3+ Years Experience",
     description: "Frontend development with modern technologies"
   },
   {
@@ -47,7 +47,7 @@ export function About() {
             {/* Content */}
             <div className="space-y-6">
               <p className="text-lg leading-relaxed text-muted-foreground">
-                I am a dedicated and skilled web developer with over 2 years of experience specializing in 
+                I am a dedicated and skilled web developer with over 3 years of experience specializing in 
                 front-end development. My expertise includes HTML, CSS, JavaScript, React, and Next.js.
               </p>
               
