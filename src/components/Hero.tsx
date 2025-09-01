@@ -53,7 +53,7 @@ export function Hero() {
           {/* Description */}
           <div className={`mb-12 ${isVisible ? "fade-in" : "opacity-0"}`} style={{ animationDelay: "0.6s" }}>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Experienced Frontend Developer with 2 years specializing in React, Next.js, and modern web technologies. 
+              Experienced Frontend Developer with 3 years specializing in React, Next.js, and modern web technologies. 
               Passionate about creating engaging user interfaces and delivering exceptional digital experiences.
             </p>
           </div>
